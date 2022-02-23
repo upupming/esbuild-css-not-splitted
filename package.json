@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-css-not-splitted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild main.js --bundle --outdir=dist --splitting --format=esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.14.23",
+    "rimraf": "3.0.2"
+  }
+}
